@@ -9,7 +9,7 @@ export default defineConfig({
   vite: {
       plugins: [tailwindcss()],
   },
-  site: 'https://DylanGonzaloFerreyra.github.io',
+  site: 'https://dylangonfer.github.io',
 
 
   integrations: [react()]
