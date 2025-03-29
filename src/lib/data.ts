@@ -1,5 +1,5 @@
 export const personalInfo = {
-  name: "Dylan Ferreyra GOn",
+  name: "Dylan Ferreyra",
   location: "Buenos Aires, Argentina",
   email: "dylanferreyra006@gmail.com",
   github: "https://github.com/dylangonfer",
