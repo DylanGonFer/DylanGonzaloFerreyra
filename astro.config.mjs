@@ -11,6 +11,14 @@ export default defineConfig({
   },
   site: 'https://dylangonfer.github.io',
   base: '/DylanGonzaloFerreyra.github.io/', // Asegúrate de que coincida con el nombre del repositorio
-
+  output: 'static',
+  trailingSlash: 'always',
+  // https://astro.build/config
+  // https://astro.build/config#markdown
+  markdown: {
+    shikiConfig: {
+      theme: 'github-light',
+    },
+  },
   integrations: [react()]
 });
