@@ -10,7 +10,7 @@ export default defineConfig({
       plugins: [tailwindcss()],
   },
   site: 'https://dylangonfer.github.io',
-
+  base: '/DylanGonzaloFerreyra.github.io/', // Asegúrate de que coincida con el nombre del repositorio
 
   integrations: [react()]
 });
