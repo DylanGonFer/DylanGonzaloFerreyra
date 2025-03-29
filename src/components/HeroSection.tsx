@@ -107,7 +107,7 @@ export default function HeroSection() {
             whileTap={{ scale: 0.95 }}
           >
             <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-[#1A4038] to-[#CACFC8] rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
                 src="/DylanGonzaloFerreyra.github.io/profile.jpg"
                 alt="Profile"
