@@ -52,6 +52,22 @@ export const education = [
     period: "Feb 2019 - Present",
   },
 ];
+export const certificates = [
+  {
+      name: "Curso de Diseño UX/UI",
+      issuer: "Academia Online",
+      date: "Marzo 2025",
+      description: "Aprendí sobre herramientas modernas de diseño como Figma y principios de UX/UI."
+  },
+  {
+      name: "Desarrollo Frontend con React",
+      issuer: "Platzi",
+      date: "Febrero 2025",
+      description: "Curso avanzado sobre React, hooks y manejo de estados globales."
+  },
+  // Puedes añadir más certificados aquí
+];
+
 export const skills = {
   programmingLanguages: [
     "TypeScript",
