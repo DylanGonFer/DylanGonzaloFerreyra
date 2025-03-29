@@ -1,8 +1,8 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
+  name: "Dylan Ferreyra",
+  location: "Buenos Aires, Argentina",
+  email: "dylanferreyra006@gmail.com",
+  github: "https://github.com/dylangonfer",
   linkedin: "https://www.linkedin.com/in/rishikeshs/",
 };
 
@@ -25,7 +25,7 @@ export const workExperience = [
   {
     company: "DevCrew",
     location: "Coimbatore, India",
-    position: "Software Engineer",
+    position: "Future Data Engineer",
     period: "Mar 2023 - Mar 2024",
     achievements: [
       "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
