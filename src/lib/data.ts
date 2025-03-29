@@ -10,7 +10,7 @@ export const workExperience = [
   {
     company: "Chatbyte GmbH",
     location: "Remote",
-    position: "Software Engineer",
+    position: "Future Data Engineer",
     period: "Mar 2024 - Present",
     achievements: [
       "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
@@ -35,7 +35,7 @@ export const workExperience = [
   {
     company: "Phoenitags",
     location: "Coimbatore, India",
-    position: "Software Engineering Intern",
+    position: "asd dEngineering Intern",
     period: "Jan 2023 - Mar 2023",
     achievements: [
       "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
@@ -46,16 +46,10 @@ export const workExperience = [
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
-    achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
-    ],
+    institution: "San Vicente de Paul Technical School",
+    location: "La Plata, Buenos Aires",
+    degree: "I'm currently in my 7th and final year for my electronics degree.",
+    period: "Feb 2019 - Present",
   },
 ];
 export const skills = {
