@@ -3,7 +3,7 @@ export const personalInfo = {
   location: "Buenos Aires, Argentina",
   email: "dylanferreyra006@gmail.com",
   github: "https://github.com/dylangonfer",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  linkedin: "https://www.linkedin.com/in/dylan-ferreyra-95698834a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 };
 
 export const workExperience = [
