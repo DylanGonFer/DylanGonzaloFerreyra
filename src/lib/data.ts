@@ -54,40 +54,27 @@ export const education = [
 ];
 export const certificates = [
   {
-      name: "Curso de Diseño UX/UI",
-      issuer: "Academia Online",
-      date: "Marzo 2025",
-      description: "Aprendí sobre herramientas modernas de diseño como Figma y principios de UX/UI."
+    title: "Curso de UX/UI",
+    description: "Diseño centrado en usuario utilizando Figma.",
+    imageUrl: "/images/uxui-course.jpg", // Cambia esto por la ruta de tu imagen
   },
   {
-      name: "Desarrollo Frontend con React",
-      issuer: "Platzi",
-      date: "Febrero 2025",
-      description: "Curso avanzado sobre React, hooks y manejo de estados globales."
+    title: "React Avanzado",
+    description: "Curso enfocado en gestión de estados y hooks.",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFMtC6p57oGfA/feedshare-shrink_800/B4DZXdarlLG4Ag-/0/1743176515158?e=1746057600&v=beta&t=4DdOb2VSxFSda8Oc-XaWl7mnCW-RJG-F1GdOG4bvnN0", // Cambia esto por la ruta de tu imagen
   },
-  // Puedes añadir más certificados aquí
 ];
+
+
 
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
     "Python",
-    "C++",
-    "Java",
-    "Solidity",
+    "SQL",
   ],
-  frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
-    "Tailwind CSS",
-    "HTML",
-    "CSS",
-  ],
+  frontendDevelopment: [],
   backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
+  databaseAndStorage: ["PostgreSQL", "MySQL", "SQLite"],
   cloudAndDevOps: ["AWS"],
   toolsAndServices: [
     "Clerk (Auth)",
