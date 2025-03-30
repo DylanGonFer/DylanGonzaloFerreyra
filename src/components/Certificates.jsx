@@ -34,7 +34,7 @@ export default function Certificates() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          📜 Certificados
+          📜 Certificates
         </motion.h2>
 
         <motion.div

@@ -23,7 +23,7 @@ export default function GlassHeader() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          {["experience", "skills", "projects", "education"].map(
+          {["skills", "projects", "education", "certificates"].map(
             (item, index) => (
               <motion.a
                 key={item}
@@ -38,6 +38,7 @@ export default function GlassHeader() {
                 {item === "skills" && "🛠️ "}
                 {item === "projects" && "🚀 "}
                 {item === "education" && "🎓 "}
+                {item === "certificates" && "📜 "}
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </motion.a>
             )
