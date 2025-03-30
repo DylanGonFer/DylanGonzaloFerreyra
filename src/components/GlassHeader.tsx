@@ -34,7 +34,6 @@ export default function GlassHeader() {
                 transition={{ duration: 0.2, delay: index * 0.1 }}
                 whileHover={{ y: -2 }}
               >
-                {item === "experience" && "💼 "}
                 {item === "skills" && "🛠️ "}
                 {item === "certificates" && "📜 "}
                 {item === "projects" && "🚀 "}
@@ -71,7 +70,7 @@ export default function GlassHeader() {
             transition={{ duration: 0.3 }}
           >
             <nav className="flex flex-col space-y-4 text-sm font-medium">
-              {["experience", "skills", "projects", "education"].map(
+              {["skills", "projects","certificates", "education"].map(
                 (item, index) => (
                   <motion.a
                     key={item}
@@ -82,8 +81,8 @@ export default function GlassHeader() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.2, delay: index * 0.1 }}
                   >
-                    {item === "experience" && "💼 "}
                     {item === "skills" && "🛠️ "}
+                    {item === "certificates" && "📜 "}
                     {item === "projects" && "🚀 "}
                     {item === "education" && "🎓 "}
                     {item.charAt(0).toUpperCase() + item.slice(1)}
