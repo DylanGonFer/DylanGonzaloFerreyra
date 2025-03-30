@@ -9,7 +9,7 @@ export default defineConfig({
   vite: {
       plugins: [tailwindcss()],
   },
-  site: 'https://dylangonfer.github.io',
+  site: 'https://dylangonfer.github.io/DylanGonzaloFerreyra.github.io/',
   base: '/DylanGonzaloFerreyra.github.io/', // Asegúrate de que coincida con el nombre del repositorio
   output: 'static',
   trailingSlash: 'always',
