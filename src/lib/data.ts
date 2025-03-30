@@ -47,14 +47,7 @@ export const skills = {
   databaseAndStorage: ["PostgreSQL", "MySQL", "SQLite"],
   cloudAndDevOps: ["AWS"],
   dataVisualization: ["Power BI", "Tableau"], 
-  toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",],
+  toolsAndServices: ["dbt (Data Build Tool)", "Airflow",  "Apache Kafka", "Apache Spark", "Snowflake"],
 };
 
 export const projects = [
