@@ -84,6 +84,7 @@ export const skills = {
   backendDevelopment: ["Nodejs", "Expressjs"],
   databaseAndStorage: ["PostgreSQL", "MySQL", "SQLite"],
   cloudAndDevOps: ["AWS"],
+  dataVisualization: ["Power BI", "Tableau"], 
   toolsAndServices: [
     "Clerk (Auth)",
     "Sanity (CMS)",
@@ -91,8 +92,7 @@ export const skills = {
     "Zod",
     "Sentry",
     "Mixpanel",
-    "Trigger.dev",
-  ],
+    "Trigger.dev",],
 };
 
 export const projects = [
