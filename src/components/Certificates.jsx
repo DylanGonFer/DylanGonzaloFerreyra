@@ -50,18 +50,35 @@ export default function Certificates() {
               className="bg-muted/10 p-4 rounded-lg shadow-lg flex flex-col items-center"
               variants={certificateItemVariants}
             >
-              {/* Imagen del Certificado */}
-              <img
-                src={cert.imageUrl}
-                alt={`Certificado de ${cert.title}`}
-                className="w-full h-40 object-cover rounded-lg mb-4"
-              />
-              
+              {/* Enlace con imagen cuadrada y efecto hover */}
+              <a
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ display: "block", width: "100%", overflow: "hidden" }}
+              >
+                <motion.img
+                  src={cert.imageUrl}
+                  alt={`Certificado de ${cert.title}`}
+                  style={{
+                    width: "100%",
+                    aspectRatio: "1 / 1", // Hace que la imagen sea cuadrada
+                    objectFit: "cover", // Ajusta el contenido sin distorsión
+                    borderRadius: "8px",
+                    transition: "transform 0.3s ease, box-shadow 0.3s ease",
+                  }}
+                  whileHover={{
+                    scale: 1.1, // Zoom al pasar el mouse
+                    boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.2)", // Sombra para resaltar
+                  }}
+                />
+              </a>
+
               {/* Nombre del Certificado */}
               <h3 className="text-lg font-medium mb-2 text-center">
                 {cert.title}
               </h3>
-              
+
               {/* Descripción del Certificado */}
               <p className="text-sm text-center">{cert.description}</p>
             </motion.div>

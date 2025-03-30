@@ -54,14 +54,16 @@ export const education = [
 ];
 export const certificates = [
   {
-    title: "Curso de UX/UI",
-    description: "Diseño centrado en usuario utilizando Figma.",
-    imageUrl: "/images/uxui-course.jpg", // Cambia esto por la ruta de tu imagen
+    title: "Python",
+    description: "Certificate of CS50's Introduction to Programming with Python.",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQEEt6_GP9bShw/feedshare-shrink_800/B4DZUQy3m7HYAg-/0/1739743526954?e=1746057600&v=beta&t=2bAnEss_F6zESpFUgC4yV1hsmlLPnDOzqcw-Hoy0YAI", // Cambia esto por la ruta de tu imagen
+    link: "https://cs50.harvard.edu/certificates/99ff6a4a-48a5-42c0-85ec-ca3994134042",
   },
   {
     title: "React Avanzado",
     description: "Curso enfocado en gestión de estados y hooks.",
     imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFMtC6p57oGfA/feedshare-shrink_800/B4DZXdarlLG4Ag-/0/1743176515158?e=1746057600&v=beta&t=4DdOb2VSxFSda8Oc-XaWl7mnCW-RJG-F1GdOG4bvnN0", // Cambia esto por la ruta de tu imagen
+    link: "https://enlace-al-certificado.com",
   },
 ];
 
