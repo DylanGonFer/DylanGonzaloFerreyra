@@ -65,6 +65,12 @@ export const certificates = [
     imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFMtC6p57oGfA/feedshare-shrink_800/B4DZXdarlLG4Ag-/0/1743176515158?e=1746057600&v=beta&t=4DdOb2VSxFSda8Oc-XaWl7mnCW-RJG-F1GdOG4bvnN0", // Cambia esto por la ruta de tu imagen
     link: "https://courses.cognitiveclass.ai/certificates/055e188dc2094198b9bce7fada35bc7c",
   },
+  {
+    title: "SQL",
+    description: "Certificate of CS50's introduction to Databases with SQL.",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQGE3mFmsA0eiw/feedshare-shrink_2048_1536/B4DZWh9dUeHIAs-/0/1742178999095?e=1746057600&v=beta&t=jgL1TrMBRqurg9d-Q3K31kIAV9ZSt_Vih9XSpMPwgE0", // Cambia esto por la ruta de tu imagen
+    link: "https://cs50.harvard.edu/certificates/99ff6a4a-48a5-42c0-85ec-ca3994134042",
+  },
 ];
 
 
