@@ -36,8 +36,8 @@ export default function GlassHeader() {
               >
                 {item === "experience" && "💼 "}
                 {item === "skills" && "🛠️ "}
-                {item === "projects" && "🚀 "}
                 {item === "certificates" && "📜 "}
+                {item === "projects" && "🚀 "}
                 {item === "education" && "🎓 "}
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </motion.a>
