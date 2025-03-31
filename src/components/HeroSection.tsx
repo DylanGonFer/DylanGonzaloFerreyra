@@ -1,9 +1,26 @@
 import { personalInfo } from "@/lib/data";
 import { Mail, Github, MapPin, Linkedin } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
+import { useState, useEffect } from "react";
 
 export default function HeroSection() {
+  const titles = ["Future Data Engineer 👨‍💻", "Future Data Scientist 🧑‍🔬", "Future Data Analyst 📊"];
+  const [currentTitle, setCurrentTitle] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTitle((prevTitle) => (prevTitle + 1) % titles.length); // Cambia entre los títulos
+    }, 3000); // Intervalo de 3 segundos para dar tiempo a la animación
+    return () => clearInterval(interval);
+  }, []);
+
+  const textVariants = {
+    hidden: { opacity: 0, y: -10 }, // Desaparece hacia arriba
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }, // Aparece suavemente
+    exit: { opacity: 0, y: 10, transition: { duration: 0.5 } }, // Desaparece hacia abajo
+  };
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -44,12 +61,21 @@ export default function HeroSection() {
               <span className="inline-block animate-pulse">✨</span>
             </motion.h1>
 
-            <motion.p
-              className="text-xl text-muted-foreground mb-6"
-              variants={childVariants}
-            >
-              Future Data Engineer 👨‍💻
-            </motion.p>
+            {/* Texto dinámico con animación */}
+            <div className="text-xl text-muted-foreground mb-6">
+              <AnimatePresence mode="wait">
+                <motion.p
+                  key={titles[currentTitle]} // Cambia la clave para cada nuevo título
+                  variants={textVariants}
+                  initial="hidden"
+                  animate="visible"
+                  exit="exit"
+                  className="inline-block"
+                >
+                  {titles[currentTitle]}
+                </motion.p>
+              </AnimatePresence>
+            </div>
 
             <motion.div
               className="flex flex-col gap-2 items-center md:items-start"
@@ -107,7 +133,7 @@ export default function HeroSection() {
             whileTap={{ scale: 0.95 }}
           >
             <div className="relative">
-            <div className="absolute -inset-1 bg-gradient-to-r from-[#1A4038] to-[#CACFC8] rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-[#1A4038] to-[#CACFC8] rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
                 src="/DylanGonzaloFerreyra.github.io/profile.jpg"
                 alt="Profile"
