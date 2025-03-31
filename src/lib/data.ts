@@ -33,6 +33,19 @@ export const certificates = [
     imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFMtC6p57oGfA/feedshare-shrink_800/B4DZXdarlLG4Ag-/0/1743176515158?e=1746057600&v=beta&t=4DdOb2VSxFSda8Oc-XaWl7mnCW-RJG-F1GdOG4bvnN0", // Cambia esto por la ruta de tu imagen
     link: "https://courses.cognitiveclass.ai/certificates/055e188dc2094198b9bce7fada35bc7c",
   },
+  {
+    title: "Data Science 101",
+    description: "Certificate of IBM's Data Science 101.",
+    imageUrl: "https://media.licdn.com/dms/image/sync/v2/D4D27AQFWTZo-DKTL7g/articleshare-shrink_800/B4DZXs4XAwHAAI-/0/1743435953059?e=1744041600&v=beta&t=jntTOX05NuYeRMFAnFW4YDX0u7EUIPK22reg3AUIobE", // Cambia esto por la ruta de tu imagen
+    link: "https://courses.cognitiveclass.ai/certificates/44f020c40a0f4b0fa58b12bd48d27caa",
+  },
+  {
+    title: "Data Science Methodology",
+    description: "Certificate of IBM's Data Science Methodology.",
+    imageUrl: "https://media.licdn.com/dms/image/sync/v2/D4D27AQHo4mp7OqMVjQ/articleshare-shrink_800/B4DZXs5F30HAAI-/0/1743436144978?e=1744041600&v=beta&t=RTCPFQCatt9egriJbc3IHhNB18pI9IqhKn94zxzqoSw", // Cambia esto por la ruta de tu imagen
+    link: "https://courses.cognitiveclass.ai/certificates/44bbe2dd450b436997739b70b75530e3",
+  },
+  
 ];
 
 
