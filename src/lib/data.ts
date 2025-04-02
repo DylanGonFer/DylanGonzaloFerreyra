@@ -68,6 +68,6 @@ export const projects = [
     title: "Fictional store Dashboard",
     github: "https://github.com/DylanGonFer/Fictional-store-Dashboard/tree/main",
     imageUrl: "https://raw.githubusercontent.com/DylanGonFer/Fictional-store-Dashboard/refs/heads/main/Dashboard.png",
-    description: "Fake Store Dashboard created using Power BI and enriched with data generated in Python using the amazing library.",
+    description: "Fake Store Dashboard created using Power BI and enriched with data generated in Python using the python faker library .",
   },
 ];
