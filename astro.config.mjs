@@ -10,7 +10,7 @@ export default defineConfig({
       plugins: [tailwindcss()],
   },
   site: 'https://dylangonfer.github.io/DylanGonzaloFerreyra/',
-  base: '/DylanGonzaloFerreyra.github.io/', // Asegúrate de que coincida con el nombre del repositorio
+  base: '/DylanGonzaloFerreyra/', // Asegúrate de que coincida con el nombre del repositorio
   output: 'static',
   trailingSlash: 'always',
   // https://astro.build/config
