@@ -9,8 +9,8 @@ export default defineConfig({
   vite: {
       plugins: [tailwindcss()],
   },
-  site: 'https://dylangonfer.github.io/DylanGonzaloFerreyra/',
-  base: '/DylanGonzaloFerreyra/', // Asegúrate de que coincida con el nombre del repositorio
+  site: 'https://DylanGonzaloFerreyra.github.io',
+  base: '/', // Asegúrate de que coincida con el nombre del repositorio
   output: 'static',
   trailingSlash: 'always',
   // https://astro.build/config
