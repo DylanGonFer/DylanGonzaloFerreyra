@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Dylan Ferreyra",
   location: "Buenos Aires, Argentina",
   email: "dylanferreyra006@gmail.com",
-  github: "https://github.com/dylangonfer",
+  github: "https://github.com/DylanGonzaloFerreyra",
   linkedin: "https://www.linkedin.com/in/dylan-ferreyra-95698834a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 };
 
