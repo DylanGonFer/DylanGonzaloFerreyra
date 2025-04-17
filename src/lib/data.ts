@@ -36,13 +36,13 @@ export const certificates = [
   {
     title: "Data Science 101",
     description: "Certificate of IBM's Data Science 101.",
-    imageUrl: "https://media.licdn.com/dms/image/sync/v2/D4D27AQFWTZo-DKTL7g/articleshare-shrink_800/B4DZXs4XAwHAAI-/0/1743435953059?e=1744736400&v=beta&t=JxN2c84d-QAGuyO_00McVHi3Wq5QEqV1Zs3Z71Vmiis", // Cambia esto por la ruta de tu imagen
+    imageUrl: "https://media.licdn.com/dms/image/sync/v2/D4D27AQFWTZo-DKTL7g/articleshare-shrink_800/B4DZXs4XAwHAAI-/0/1743435953059?e=1745499600&v=beta&t=Pc_k4EuLJ94V67J68qlt4gFkNxzIos_L_bEipi1E_uI", // Cambia esto por la ruta de tu imagen
     link: "https://courses.cognitiveclass.ai/certificates/44f020c40a0f4b0fa58b12bd48d27caa",
   },
   {
     title: "Data Science Methodology",
     description: "Certificate of IBM's Data Science Methodology.",
-    imageUrl: "https://media.licdn.com/dms/image/sync/v2/D4D27AQHo4mp7OqMVjQ/articleshare-shrink_800/B4DZXs5F30HAAI-/0/1743436144978?e=1744736400&v=beta&t=UeLnTievXWFXmVnZWzOlPUKHyV5FSVHUdR3gqb-LNaU", // Cambia esto por la ruta de tu imagen
+    imageUrl: "https://media.licdn.com/dms/image/sync/v2/D4D27AQHo4mp7OqMVjQ/articleshare-shrink_800/B4DZXs5F30HAAI-/0/1743436144978?e=1745499600&v=beta&t=wLfbLl5LSjdN3B5FsJzH62ES91XuP-FwvRfy2ci_GN0", // Cambia esto por la ruta de tu imagen
     link: "https://courses.cognitiveclass.ai/certificates/44bbe2dd450b436997739b70b75530e3",
   },
   
