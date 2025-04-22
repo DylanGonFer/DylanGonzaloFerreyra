@@ -82,5 +82,11 @@ export const projects = [
     imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/Meteorology-Pipeline/refs/heads/main/images/project_cover.jpg",
     description: "Weather Data Pipeline with Apache Airflow",
   },
+  {
+    title: "Weather Data Autopmation",
+    github: "https://github.com/DylanGonzaloFerreyra/Weather-Data-Automation",
+    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/Weather-Data-Automation/main/images/project_cover.jpg",
+    description: "This project implements an automated system to collect, store, and manage weather data using the OpenWeatherMap API, MongoDB, and Apache Airflow.",
+  },
   
 ];
