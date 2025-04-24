@@ -57,7 +57,7 @@ export const skills = {
   ],
   frontendDevelopment: [],
   backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "MySQL", "SQLite"],
+  databaseAndStorage: ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
   cloudAndDevOps: ["AWS", "Azure"],
   dataVisualization: ["Power BI", "Tableau"], 
   toolsAndServices: ["dbt (Data Build Tool)", "Airflow", "Apache Spark", "Snowflake", "Pandas"],
