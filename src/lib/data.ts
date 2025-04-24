@@ -60,7 +60,7 @@ export const skills = {
   databaseAndStorage: ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
   cloudAndDevOps: ["AWS", "Azure"],
   dataVisualization: ["Power BI", "Tableau"], 
-  toolsAndServices: ["dbt (Data Build Tool)", "Airflow", "Apache Spark", "Snowflake", "Pandas"],
+  toolsAndServices: ["dbt (Data Build Tool)", "Apache Airflow", "Apache Spark", "Snowflake", "Pandas"],
 };
 
 export const projects = [
