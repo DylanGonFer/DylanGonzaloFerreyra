@@ -36,13 +36,13 @@ export const certificates = [
   {
     title: "Data Science 101",
     description: "Certificate of IBM's Data Science 101.",
-    imageUrl: "certificates\DataScience.jpg",
+    imageUrl: "certificates/DataScience.jpg",
     link: "https://courses.cognitiveclass.ai/certificates/44f020c40a0f4b0fa58b12bd48d27caa",
   },
   {
     title: "Data Science Methodology",
     description: "Certificate of IBM's Data Science Methodology.",
-    imageUrl: "https://media.licdn.com/dms/image/sync/v2/D4D27AQHo4mp7OqMVjQ/articleshare-shrink_800/B4DZXs5F30HAAI-/0/1743436144978?e=1745499600&v=beta&t=wLfbLl5LSjdN3B5FsJzH62ES91XuP-FwvRfy2ci_GN0", // Cambia esto por la ruta de tu imagen
+    imageUrl: "certificates/Methodology.jpg",
     link: "https://courses.cognitiveclass.ai/certificates/44bbe2dd450b436997739b70b75530e3",
   },
   
