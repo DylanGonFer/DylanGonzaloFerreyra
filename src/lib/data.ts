@@ -88,5 +88,11 @@ export const projects = [
     imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/Weather-Data-Automation/main/images/project_cover.jpg",
     description: "This project implements an automated system to collect, store, and manage weather data using the OpenWeatherMap API, MongoDB, and Apache Airflow.",
   },
+  {
+    title:"SnowPypeLine",
+    github: "https://github.com/DylanGonzaloFerreyra/SnowPypeLine",
+    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/SnowPypeLine/main/images/project_cover.png",
+    description: "This project implements a pipeline for extracting, cleaning, and storing meteorological data. It uses Apache Airflow for orchestration, Pandas for data cleansing, and Snowflake for data cleansing.",
+  },
   
 ];
