@@ -73,13 +73,13 @@ export const projects = [
   {
     title: "Music Streaming Preference Analysis",
     github: "https://github.com/DylanGonFer/Music-Streaming-Preferences-Dashboard/tree/main",
-    imageUrl: "https://raw.githubusercontent.com/DylanGonFer/Music-Streaming-Preferences-Dashboard/refs/heads/main/visualizations/Dashboard.png",
+    imageUrl: "https://github.com/DylanGonzaloFerreyra/Music-Streaming-Preferences-Dashboard/blob/main/visualizations/Dashboard.png",
     description: "This repository contains an analysis of listener preferences on music platforms around the world. Python (Pandas) was used for data cleaning, and Power BI was used to create an interactive dashboard.",
   },
   {
     title: "Meteorology Pipeline",
     github: "https://github.com/DylanGonzaloFerreyra/Meteorology-Pipeline",
-    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/Meteorology-Pipeline/refs/heads/main/images/project_cover.jpg",
+    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/Meteorology-Pipeline/refs/heads/main/images/project_cover.jpg", 
     description: "Weather Data Pipeline with Apache Airflow",
   },
   {
