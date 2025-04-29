@@ -73,7 +73,7 @@ export const projects = [
   {
     title: "Music Streaming Preference Analysis",
     github: "https://github.com/DylanGonFer/Music-Streaming-Preferences-Dashboard/tree/main",
-    imageUrl: "https://raw.githubusercontent.com/DylanGonFer/Fictional-store-Dashboard/refs/heads/main/dahsboard.png",
+    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/Music-Streaming-Preferences-Dashboard/refs/heads/main/visualizations/Dashboard.png",
     description: "This repository contains an analysis of listener preferences on music platforms around the world. Python (Pandas) was used for data cleaning, and Power BI was used to create an interactive dashboard.",
   },
   {
