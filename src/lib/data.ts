@@ -18,19 +18,19 @@ export const certificates = [
   {
     title: "Python",
     description: "Certificate of CS50's Introduction to Programming with Python.",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQEEt6_GP9bShw/feedshare-shrink_800/B4DZUQy3m7HYAg-/0/1739743526954?e=1746057600&v=beta&t=2bAnEss_F6zESpFUgC4yV1hsmlLPnDOzqcw-Hoy0YAI", // Cambia esto por la ruta de tu imagen
-    link: "https://cs50.harvard.edu/certificates/99ff6a4a-48a5-42c0-85ec-ca3994134042",
+    imageUrl: "certificates/CS50P_PYTHON.jpg",
+    link: "https://certificates.cs50.io/bca18fcf-a55c-42f1-96ce-911e7ab2e8fa.pdf?size=letter",
   },
   {
     title: "SQL",
     description: "Certificate of CS50's introduction to Databases with SQL.",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQGE3mFmsA0eiw/feedshare-shrink_2048_1536/B4DZWh9dUeHIAs-/0/1742178999095?e=1746057600&v=beta&t=jgL1TrMBRqurg9d-Q3K31kIAV9ZSt_Vih9XSpMPwgE0", // Cambia esto por la ruta de tu imagen
+    imageUrl: "certificates/CS50_SQL.jpg",
     link: "https://cs50.harvard.edu/certificates/99ff6a4a-48a5-42c0-85ec-ca3994134042",
   },
   {
     title: "Big Data",
     description: "Certificate of IBM's Big Data.",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFMtC6p57oGfA/feedshare-shrink_800/B4DZXdarlLG4Ag-/0/1743176515158?e=1746057600&v=beta&t=4DdOb2VSxFSda8Oc-XaWl7mnCW-RJG-F1GdOG4bvnN0", // Cambia esto por la ruta de tu imagen
+    imageUrl: "certificates/big_data.jpg",
     link: "https://courses.cognitiveclass.ai/certificates/055e188dc2094198b9bce7fada35bc7c",
   },
   {
