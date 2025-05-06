@@ -94,6 +94,12 @@ export const projects = [
     imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/SnowPypeLine/main/images/project_cover.png",
     description: "This project implements a pipeline for extracting, cleaning, and storing meteorological data. It uses Apache Airflow for orchestration, Pandas for data cleansing, and Snowflake for data cleansing.",
   },
+  {
+    title: "DBT SnowPipeline",
+    github: "https://github.com/DylanGonzaloFerreyra/DBT-SnowPipeline",
+    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/DBT-SnowPipeline/main/images/project_cover.jpg",
+    description: "This project is responsible for transforming and modeling a dataset using dbt (Data Build Tool)and Snowflake.",
+  },
 
   
 ];
