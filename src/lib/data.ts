@@ -67,37 +67,37 @@ export const projects = [
   {
     title: "Fictional store Dashboard",
     github: "https://github.com/DylanGonFer/Fictional-store-Dashboard/tree/main",
-    imageUrl: "https://raw.githubusercontent.com/DylanGonFer/Fictional-store-Dashboard/refs/heads/main/dahsboard.png",
+    imageUrl: "project_covers/Fictional-store-Dashboard.png",
     description: "Fake Store Dashboard created using Power BI and enriched with data generated in Python using Faker library.",
   },
   {
     title: "Music Streaming Preference Analysis",
     github: "https://github.com/DylanGonzaloFerreyra/Music-Streaming-Preferences-Dashboard/tree/main",
-    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/Music-Streaming-Preferences-Dashboard/refs/heads/main/visualizations/Dashboard.png",
+    imageUrl: "project_covers/Music-Streaming-Preference-Analysis.png",
     description: "This repository contains an analysis of listener preferences on music platforms around the world. Python (Pandas) was used for data cleaning, and Power BI was used to create an interactive dashboard.",
   },
   {
     title: "Meteorology Pipeline",
     github: "https://github.com/DylanGonzaloFerreyra/Meteorology-Pipeline",
-    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/Meteorology-Pipeline/refs/heads/main/images/project_cover.jpg", 
+    imageUrl: "project_covers/MeteorologyPipeline.jpg", 
     description: "Weather Data Pipeline with Apache Airflow",
   },
   {
     title: "Weather Data Automation",
     github: "https://github.com/DylanGonzaloFerreyra/Weather-Data-Automation",
-    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/Weather-Data-Automation/refs/heads/main/images/project_cover.jpg",
+    imageUrl: "project_covers/WeatherDataAutomation.jpg",
     description: "This project implements an automated system to collect, store, and manage weather data using the OpenWeatherMap API, MongoDB, and Apache Airflow.",
   },
   {
     title: "SnowPypeLine",
     github: "https://github.com/DylanGonzaloFerreyra/SnowPypeLine",
-    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/SnowPypeLine/main/images/project_cover.png",
+    imageUrl: "project_covers/SnowPypeline.png",
     description: "This project implements a pipeline for extracting, cleaning, and storing meteorological data. It uses Apache Airflow for orchestration, Pandas for data cleansing, and Snowflake for data cleansing.",
   },
   {
     title: "DBT SnowPipeline",
     github: "https://github.com/DylanGonzaloFerreyra/DBT-SnowPipeline",
-    imageUrl: "https://raw.githubusercontent.com/DylanGonzaloFerreyra/DBT-SnowPipeline/main/images/project_cover.jpg",
+    imageUrl: "project_covers/DBTSnowPipeline.jpg",
     description: "This project is responsible for transforming and modeling a dataset using dbt (Data Build Tool)and Snowflake.",
   },
 
